@@ -7,18 +7,23 @@ body{
 
 .subscription{
     margin: 50px 30px;
-    background-color: #fff;
-    border-radius: 10px;
+   
+   
   
 
 }
-
+ /* ==============upper, middile & bottom card=========== */
 .upper, 
 .middle,
 .bottom{
 padding: 10px 30px;
-}
 
+}
+.upper{
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .middle{
     background-color: #2BB3B1;
 }
@@ -46,6 +51,9 @@ padding: 10px 30px;
 .middle p, h4{
     color: rgba(255, 255, 255, 0.555);
 }
+.middle h4{
+    color: rgba(255, 255, 255, 0.719);
+}
 .sign-button{
     width: 100%;
     padding: 10px 0;
@@ -53,15 +61,48 @@ padding: 10px 30px;
     border: none;
     border-radius: 5px;
     color: white;
-    margin-bottom: 20px;
+    margin: 25px 0;
+    font-size: 20px;
 }
 .subscription-fee{
     font-size: 30px;
     color: rgba(255, 255, 255, 0.829);
 }
+.bottom{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 .bottom p{
     color: rgba(255, 255, 255, 0.555);
-    line-height: 1.5em;
+    line-height: 1.8em;
     text-align: left;
     width: 80%;
+}
+
+/*==================== Display Grid ============== */
+.grid-display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom-left-radius: 10px;
+    
+}
+
+@media (min-width:720px){
+    body{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bottom{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .middle{
+        border-bottom-left-radius: 10px;
+    }
+}
+@media(min-width:1020px){
+    body{
+        width: 50%;
+        margin: 0 auto;
+    }
 }
