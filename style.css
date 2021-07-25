@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E6EFF6;
+    color: white;
+}
+
+.subscription{
+    margin: 50px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+  
+
+}
+
+.upper, 
+.middle,
+.bottom{
+padding: 10px 30px;
+}
+
+.middle{
+    background-color: #2BB3B1;
+}
+
+.bottom{
+    background-color: #4ABEBD;
+}
+
+.community-title{
+    color: #28c6ce;
+}
+
+.moneyBack-line{
+    color: #c0e40f;
+}
+
+.upper p{
+    color:#aaafb9 ;
+    line-height: 1.8em;
+}
+
+.middle h1{
+    color: rgba(255, 255, 255, 0.829);
+}
+.middle p, h4{
+    color: rgba(255, 255, 255, 0.555);
+}
+.sign-button{
+    width: 100%;
+    padding: 10px 0;
+    background-color:#BFDF32 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+.subscription-fee{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.829);
+}
+.bottom p{
+    color: rgba(255, 255, 255, 0.555);
+    line-height: 1.5em;
+    text-align: left;
+    width: 80%;
+}
