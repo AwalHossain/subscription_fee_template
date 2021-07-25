@@ -80,17 +80,18 @@ padding: 10px 30px;
 }
 
 /*==================== Display Grid ============== */
-.grid-display{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border-bottom-left-radius: 10px;
-    
-}
+
 
 @media (min-width:720px){
     body{
         width: 90%;
         margin: 0 auto;
+    }
+    .grid-display{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-bottom-left-radius: 10px;
+        
     }
     .bottom{
         border-bottom-right-radius: 10px;
